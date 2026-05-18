@@ -1,3 +1,4 @@
+```text
 ============================================================
               🧮 CALCULADORA EM LINGUAGEM C
 ============================================================
@@ -51,3 +52,4 @@ Certifique-se de ter o GCC instalado no seu sistema.
 Desenvolvido por: haggardPlace203
 GitHub: https://github.com/haggadPlace203
 ============================================================
+´´´
