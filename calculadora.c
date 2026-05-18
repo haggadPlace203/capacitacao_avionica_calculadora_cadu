@@ -1,6 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void exibirMenu(){
+    printf("Escola uma opcao:\n");
+    printf("1 - Adicao\n");
+    printf("2 - Subtracao\n");
+    printf("3 - Multiplicacao\n");
+    printf("4 - Divisao\n");
+    printf("5 - Sair\n");
+}
+
 int main(){
     int opcao;
     double num1, num2, resultado;
@@ -8,12 +17,9 @@ int main(){
     printf("=== CALCULADORA EM C ===\n");
 
     while (1){
-        printf("Escola uma opcao:\n");
-        printf("1 - Adicao\n");
-        printf("2 - Subtracao\n");
-        printf("3 - Multiplicacao\n");
-        printf("4 - Divisao\n");
-        printf("5 - Sair\n");
+        
+        exibirMenu();
+
         scanf("%d", &opcao);
         if (opcao == 5){
             printf("Encerrando...\n");
