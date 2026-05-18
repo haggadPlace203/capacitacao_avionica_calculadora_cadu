@@ -43,9 +43,12 @@ int main(){
                 printf("\n%2lf * %2lf = %2lf\n", num1, num2, resultado);
                 break;
             case 4:
-                resultado = num1 / num2;
-                printf("\n%2lf / %2lf = %2lf\n", num1, num2, resultado);
-                break;
+                if (num2 == 0){
+                    printf("\nErro: Divisao por zero nao permitida\n");
+                }else{
+                    resultado = num1 / num2;
+                    printf("\n%2lf / %2lf = %2lf\n", num1, num2, resultado);
+                }
             default:
                 break;
         }
